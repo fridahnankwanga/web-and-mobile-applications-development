@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fridah Nankwanga - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #007BFF; /* Blue background */
+            color: #FFFFFF; /* White text */
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        .profile-pic{
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #FFFFFF;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        nav {
+            background-color: #0056b3; /* Darker blue for nav */
+            overflow: hidden;
+            text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            background-color: #004494;
+        }
+
+        .section {
+            padding: 40px;
+            margin-top: 20px;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.2); /* Semi-transparent background for sections */
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #FFFFFF;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h3 {
+            margin: 0;
+        }
+
+        .project p {
+            margin-top: 5px;
+        }
+
+        .contact-info a {
+            display: inline-block;
+            margin-right: 15px;
+            color: #FFFFFF;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header id="home">
+            <img src="pf.jpg" alt="Fridah Nankwanga's profile picture" class="profile-pic">
+            <h1>FRIDAH NANKWANGA</h1>
+            <p>Welcome to my portfolio! I'm an aspiring web developer passionate about creating digital experiences.</p>
+        </header>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>I am a passoniate student pursing a course in bachelor of information and technology from Uganda Christian University. My coursework has equipped me with skills in problem-solving and software development. My interests lie in front-end development, specifically building responsive and interactive user interfaces. I am always eager to learn and apply new technologies to real-world projects.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Personal Blog Website</h3>
+                <p>This was a personal project to practice my HTML and CSS skills. The website features a clean, responsive layout for sharing articles and thoughts. It was a great way to solidify my understanding of fundamental web design principles.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: website portfolio</h3>
+                <p>A simple, portofolio about creating a webiste that increases my skills in web designing .</p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>You can connect with me through the following platforms:</p>
+            <div class=0783739990>
+                <a href="mailto:fridahnankwanga403@gmail.com">Email: fridahnankwanga403@gmail.com</a>
+                <a href="https://github.com/fridahnankwanga" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/your-linkedin/fridahnankwanga" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        // Optional JavaScript for smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
