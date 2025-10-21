@@ -1,3 +1,72 @@
-h1 { 
-    color: red,
-} 
+body {
+    background-color:maroon;
+    color: black; 
+    scroll-behavior: smooth;
+}
+
+.aqua-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    min-height: 100vh;
+}
+
+/* Custom color for the navbar and buttons/links */
+.navbar-custom {
+    background-color:maroon; 
+    border-bottom: 2px solid #FFFFFF;
+}
+
+/* Ensure all text within the navbar is white */
+.navbar-custom .nav-link, 
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-toggler-icon {
+    color: black !important;
+}
+
+/* Project Cards: White background (default card color) for contrast, with maroon titles */
+.card {
+    background-color: #FFFFFF;
+    color: #212529; /* Dark text for contrast on white card */
+    border: 1px solid #FFFFFF;
+}
+
+.card-title {
+    color: white; 
+    font-weight: bold;
+}
+
+.btn-github {
+    background-color: #FFFFFF;
+    color: brown;
+    border: 2px solid brown;
+}
+.btn-github:hover {
+    background-color: #800000;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+/* Profile Picture Placeholder Styling */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    background-color: #FFFFFF;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 auto 1.5rem;
+    border: 5px solid #FFFFFF;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
